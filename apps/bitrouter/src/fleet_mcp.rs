@@ -1582,6 +1582,7 @@ mod tests {
             caller: CallerContext::new("key-a", "owner-a"),
             target: None,
             model_id: String::new(),
+            reasoning_effort: None,
             provider_id: String::new(),
             account_label: None,
             prompt_tokens: 0,
